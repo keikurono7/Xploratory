@@ -1,0 +1,62 @@
+body{
+    background-image: url(spacebg.gif);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.podn{
+    margin: 2%;
+    display: flex;
+    padding: 1%;
+    width: 94%;
+    border-radius: 10px;
+    background-color: rgb(72, 72, 72);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.podn1{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.podn2{
+    border-radius: 10px;
+    padding: 2%;
+    height: 100%;
+    border-color: white;
+    box-shadow: 0px 10px 20px 5px rgb(0, 0, 0);
+}
+
+.podn p{
+    height: 100%;
+    font-size: 2vh;
+}
+
+.podn img{
+    margin: 5px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+@media only screen and (orientation: portrait) {
+    .podn1{
+        flex-direction: column;
+    }
+    .podn2{
+        margin: 10px;
+        padding: 15px;
+    }
+    .podn img{
+        width: 90%;
+    }
+  }
